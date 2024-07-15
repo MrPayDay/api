@@ -1,0 +1,4 @@
+
+curl -X DELETE http://localhost/jobapi/newapi/index.php/10
+
+{"name":"jada","age":15,"email":"andre@test.de"}
