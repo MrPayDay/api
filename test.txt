@@ -1,0 +1,12 @@
+curl -X GET http://localhost/Jobapi/newapi/index.php
+
+curl -X GET http://localhost/Jobapi/newapi/index.php/19
+
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"John Doe\",\"age\":30,\"email\":\"john.doe@example.com\"}" http://localhost/Jobapi/newapi/index.php
+
+curl -X PUT -H "Content-Type: application/json" -d "{\"name\":\"John Smith\",\"age\":31,\"email\":\"john.smith@example.com\"}" http://localhost/Jobapi/newapi/index.php/19
+
+
+curl -X DELETE http://localhost/jobapi/newapi/index.php/10
+
+'{"name":"John Doe","age": 30,"email":"john.doe@example.com"}' 
